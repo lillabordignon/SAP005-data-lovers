@@ -1,17 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito&family=Roboto&display=swap');
+
+/* body {
+  background: url('./img/bg02.jpg');
+} */
+
 * {
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  line-height: 25px;
 }
 
 #header {
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.5px;
 
 }
 
 #logo-header {
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 #navbar {
@@ -22,20 +42,22 @@
   display: flex;
   align-items: center;
   list-style: none;
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 #navbar a {
   text-decoration: none;
   padding: 0 15px;
   text-transform: uppercase;
-  color: #3663ad;
+  color: #ff7d01;
   font-weight: 600;
+  font-size: 14px;
+
 }
 
 #navbar a:hover {
   text-decoration: underline;
-  color: #ff7d01;
+  color: #3763ae;
 }
 
 #container {
@@ -49,35 +71,45 @@
 }
 
 #container-info {
-  font-family: "Josefin Sans";
   display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: 0px auto;
 }
 
-#Pokemon-Go, #Pokemon-LiK {
-  margin: 10px 10px 10px 10px;
-  padding: 15px 15px 15px 15px;
-  border: 1.5px solid #eace24bf;
-  border-radius: 1em;
-  box-shadow: 2px 7px 13px 0px #eace24bf;
+.container-info-pokemon h1 {
+  margin: 35px 0 10px 0;
+  color: #3763ae;
+}
+
+.container-info-pokemon {
+  margin: 20px 0 30px 0;
+  padding: 0 10px 15px 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 0px #757575;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #3f3f3f;
+}
+
+#container-info-video h2 {
+  margin: 10px 0;
+  color: #3763ae;
+  font-size: 18px;
   text-align: center;
 }
 
-h1{
-  margin-bottom: 10px;
+#container-info-video {
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 #container-video {
-  max-width: 500px;
-  max-height: 300px;
-  border-radius: 0.5em;
+  max-width: 600px;
+  border-radius: 20px;
 }
 
-section{
-  margin: 10px auto 10px auto;
-  font-family: "Josefin Sans";
-}
-
-footer{
+#footer {
   background-color: #8080804d;
   text-align: center;
   font-family: "Josefin Sans";
