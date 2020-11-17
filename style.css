@@ -70,19 +70,25 @@ h1{
   max-width: 500px;
   max-height: 300px;
   border-radius: 0.5em;
+  margin-top: 10px;
 }
 
 section{
   margin: 10px auto 10px auto;
   font-family: "Josefin Sans";
+  text-align: center;
 }
 
 footer{
-  background-color: #8080804d;
+  background-color: #3763ae;
   text-align: center;
   font-family: "Josefin Sans";
+  justify-content: center;
+  padding: 15px;
+  align-items: center;
+  color: #ffffff;
 }
 
 #github {
-  width: 15%;
+  padding: 10px;
 }
