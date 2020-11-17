@@ -109,12 +109,16 @@ p {
   border-radius: 20px;
 }
 
-#footer {
-  background-color: #8080804d;
+footer {
+  background-color: #3763ae;
   text-align: center;
   font-family: "Josefin Sans";
+  justify-content: center;
+  padding: 15px;
+  align-items: center;
+  color: #ffffff;
 }
 
 #github {
-  width: 15%;
+  padding: 10px;
 }
