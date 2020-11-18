@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  line-height: 25px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.5px;
+
+}
+
+#logo-header {
+  margin-left: 70px;
+}
+
+#navbar {
+  display: flex;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 60px;
+}
+
+#navbar a {
+  text-decoration: none;
+  padding: 0 15px;
+  text-transform: uppercase;
+  color: #ff7d01;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+  color: #3763ae;
+}
+
+#bg-pokemon {
+  display: flex;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#container {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  box-shadow: 0px 0px 8px 3px #ccc;
+  transition: box-shadow 0.3s;
+  background-color: #f1f0f0;
+  transition: transform .35s ease;
+  border-radius: 15px;
+  margin: 20px 20px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 15px 5px #b1b1b1;
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card img {
+  margin: 0 auto;
+  max-width: 150px;
+  padding: 20px;
+}
+
+.card h1 {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 20px;
+  color: #3f3f3f;
+}
+
+.card button {
+  width: 100px;
+  margin: 15px auto;
+  border-radius: 5px;
+  border: 1px solid #e0b505;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #ffcb05;
+  color: #3f3f3f;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in;
+  padding: 8px 0 6px 0;
+  outline: none;
+}
+
+.card button:hover {
+  background-color: #ff7d01;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e26f04;
+}
+
+#footer {
+  background-color: #3763ae;
+  text-align: center;
+  padding: 18px 0 13px 0;
+}
+
+#footer a img {
+  margin-left: 20px;
+}
+
+#copy {
+  background-color: #3f3f3f;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
