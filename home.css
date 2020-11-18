@@ -70,7 +70,7 @@ p {
   margin-bottom: 30px;
 }
 
-#container-info {
+.container-info {
   display: flex;
   flex-direction: column;
   max-width: 60%;
@@ -92,33 +92,36 @@ p {
   color: #3f3f3f;
 }
 
-#container-info-video h2 {
+.container-info-video h2 {
   margin: 10px 0;
   color: #3763ae;
   font-size: 18px;
   text-align: center;
 }
 
-#container-info-video {
+.container-info-video {
   margin: 0 auto;
   margin-bottom: 40px;
 }
 
-#container-video {
+.container-video {
   max-width: 600px;
   border-radius: 20px;
 }
 
-footer {
+#footer {
   background-color: #3763ae;
   text-align: center;
-  font-family: "Josefin Sans";
-  justify-content: center;
-  padding: 15px;
-  align-items: center;
-  color: #ffffff;
+  padding: 18px 0 13px 0;
 }
 
-#github {
-  padding: 10px;
+#footer a img {
+  margin-left: 20px;
+}
+
+#copy {
+  background-color: #3f3f3f;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
 }
