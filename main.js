@@ -17,5 +17,26 @@ const showCards = () => {
 }
 
 window.addEventListener('load', () => {
-  showCards();
+    input.addEventListener("keyup", pokemonSearch)
+    showCards();
 })
+
+const btnsearch = document.getElementById("btnsearch")
+const input = document.getElementById("search")
+
+function pokemonSearch(){
+    let cards = document.querySelector('.c-cards')
+    while (cards.firstChild){
+        cards.removeChild(cards.firstChild);
+    }
+    data.pokemon.filter((pokemon) =>{
+        const search = document.getElementById("search").value
+        if (pokemon.name.startsWith(search)){
+            let cards = document.querySelector('.c-cards');
+            let card = document.createElement('section');
+            cards.appendChild(card);
+            card.innerHTML = `<section class="card"><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><button>Detalhes</button></section>`;
+        }
+    })
+}
+btnsearch.addEventListener("click", pokemonSearch)
