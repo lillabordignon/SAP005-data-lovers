@@ -27,11 +27,8 @@ p {
   margin-top: 5px;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 0.5px;
-
-}
-
-#logo-header {
-  margin-left: 70px;
+  flex-wrap: wrap;
+  padding: 0 70px;
 }
 
 #navbar {
@@ -42,7 +39,6 @@ p {
   display: flex;
   align-items: center;
   list-style: none;
-  margin-right: 60px;
 }
 
 #navbar a {
@@ -105,7 +101,7 @@ p {
 }
 
 .container-video {
-  max-width: 600px;
+  width: 100%;
   border-radius: 20px;
 }
 
@@ -124,4 +120,25 @@ p {
   text-align: center;
   font-size: 12px;
   color: #fff;
+}
+
+@media(min-width:769px) {
+  .container-video {
+    max-width: 600px;
+  }
+
+}
+
+@media(max-width:480px) {
+  #header {
+    padding: 0 15px;
+  }
+
+  #navbar ul {
+    flex-wrap: wrap;
+  }
+
+  #navbar ul li {
+    width: 100%;
+  }
 }
