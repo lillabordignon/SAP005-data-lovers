@@ -84,6 +84,25 @@ p {
   position: relative;
 }
 
+#navbarPokemon {
+  display: flex;
+  justify-content:space-around;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin: 15px;
+}
+
+label {
+  padding: 3px 10px;
+}
+
+input, select, button {
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  padding: 1px 10px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
