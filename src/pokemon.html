@@ -25,11 +25,24 @@
   </header>
   <section>
     <img id="bg-pokemon" src="./img/banner-pokemon.jpg" alt="">
+    <nav id="navbarPokemon">
+      <div>
+        <label>Ordenar</label>
+        <select id="ordenar">
+          <option value="none" selected> </option>
+          <option value="A-Z">A-Z</option>
+          <option value="Z-A">Z-A</option>
+          <option value="Tipo">Tipo</option>
+          <option value="Raridade">Raridade</option>
+        </select>
+      </div> 
+      <div>
+        <label>Buscar </label>
+        <input id="search" type="text"/>
+        <button id="btnsearch">Buscar</button>
+      </div>
+    </nav>
   </section>
-  <nav>
-    <input id="search" type="text" />
-    <button id="btnsearch">Search</button>
-  </nav>
   <main id="container" class="c-cards"></main>
   <footer id="footer">
     <a href="http://github.com/lillabordignon/" target="_blank"><img src="./img/github-amarelo-45.png"
