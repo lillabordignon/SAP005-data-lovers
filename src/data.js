@@ -8,6 +8,19 @@ export const anotherExample = () => {
   return 'OMG';
 };
 
+export const ordenarNum = (pokemons) => {
+  return pokemons.sort(function orderPokemon (a, b){
+      const numA = a.num.toUpperCase()
+      const numB = b.num.toUpperCase()
+      if (numA > numB) {
+        return 1;
+      } if (numA < numB){
+        return -1;
+      }
+        return 0;
+    })
+}
+
 export const ordenarAZ = (pokemons) => {
   return pokemons.sort(function orderPokemon (a, b){
     const nameA = a.name.toUpperCase()
@@ -39,28 +52,8 @@ export const ordenarType = (pokemons) => {
     const typeA = a.type[0].toUpperCase()
     const typeB = b.type[0].toUpperCase()
     if (typeA > typeB) {
-      // const typeA2 = a.type[1].toUpperCase()
-      // const typeB2 = b.type[1].toUpperCase()
-      // if (typeA2 > typeB2){
-      //   return 1;
-      // } if (typeA2 < typeB2){
-      //   return -1;
-      // }
-      return 1;
+       return 1;
     } if (typeA < typeB){
-      return -1;
-    }
-      return 0;
-    })
-}
-
-export const ordenarRarity = (pokemons) => {
-  return pokemons.sort(function orderPokemon (a, b){
-    const rarityA = a.pokemon-rarity.toUpperCase()
-    const rarityB = b.pokemon-rarity.toUpperCase()
-    if (rarityA > rarityB) {
-      return 1;
-    } if (rarityA < rarityB){
       return -1;
     }
       return 0;

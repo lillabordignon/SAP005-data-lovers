@@ -1,4 +1,4 @@
-import {ordenarAZ, ordenarZA, ordenarType, ordenarRarity} from './data.js';
+import {ordenarAZ, ordenarZA, ordenarType, ordenarNum} from './data.js';
 import data from './data/pokemon/pokemon.js';
 
 
@@ -11,7 +11,6 @@ const showCards = () => {
     cards.appendChild(card);
     card.innerHTML = `<article class="card type-${pokemon.type[0]}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${pokemon.type}</h2><button>Detalhes</button></article>`;
   }
-
 }
 
 window.addEventListener('load', () => {
@@ -33,11 +32,18 @@ function pokemonSearch(){
     pokemonCardsClear()
     data.pokemon.filter((pokemon) =>{
         const search = document.getElementById("search").value
-        if (pokemon.name.startsWith(search)){
+        if (pokemon.name.startsWith(search) || pokemon.type[0].startsWith(search)){
           let cards = document.querySelector('.c-cards');
           let card = document.createElement('section');
           cards.appendChild(card);
-          card.innerHTML = card.innerHTML = `<article class="card type-${pokemon.type[0]}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${pokemon.type}</h2><button>Detalhes</button></article>`;
+          card.innerHTML = `<article class="card type-${pokemon.type[0]}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${pokemon.type}</h2><button>Detalhes</button></article>`;
+        } else if (pokemon.type[1] != undefined){
+          if(pokemon.type[1].startsWith(search)){
+            let cards = document.querySelector('.c-cards');
+            let card = document.createElement('section');
+            cards.appendChild(card);
+            card.innerHTML = `<article class="card type-${pokemon.type[0]}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${pokemon.type}</h2><button>Detalhes</button></article>`;
+          }
         }
     })
 }
@@ -56,14 +62,8 @@ function qualquer(){
   } if (index == 3){
     pokemonCardsClear();
     showCards(ordenarType(data.pokemon))
-  } if (index == 4){
-    pokemonCardsClear();
-    showCards(ordenarRarity(data.pokemon))
-  } else {
-    showCards(data.pokemon)
+  } if (index == 0){
+    pokemonCardsClear()
+    showCards(ordenarNum(data.pokemon))
   }
-  console.log(index)
 }
-
-console.log(data.pokemon[1])
-
