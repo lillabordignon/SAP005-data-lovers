@@ -18,6 +18,7 @@ const showModal = (event) => {
   modal.classList.add('itemActive');
 
   let contentModal = modal.querySelector('.c-modal_content');
+  contentModal.removeAttribute('id');
   
   let elClick = event.target;
   let cardClicked = elClick.closest('article.card');
@@ -26,9 +27,11 @@ const showModal = (event) => {
   console.log(pokeNum);
 
   let findCard = data.pokemon.find(pokemon =>  pokemon.num == pokeNum);
+  let boxType = `type-${findCard.type[0]}`;
+  contentModal.setAttribute('id', boxType);
 
   
-  contentModal.innerHTML = `<span class="close">&times;</span><img src="${findCard.img}" alt=""><h1>${findCard.name}<h1><h2>${findCard.type}</h2><p>${findCard.about}</p><p>${findCard.weaknesses}</p><p>${findCard['quick-move'][0].name}</p><p>${findCard['special-attack'][0].name}</p>`;
+  contentModal.innerHTML = `<span class="close">&times;</span><div class="c-modal-header"><img src="${findCard.img}" alt=""><h1>${findCard.name}</h1><h2><strong>Type:</strong> ${findCard.type}</h2></div><div class="c-modal-container"><p><strong>Height:</strong> ${findCard.size.height}</p><p><strong>Weight:</strong> ${findCard.size.weight}</p><p><strong>About:</strong> ${findCard.about}</p></div><div class="c-modal-footer"><p><strong>Quick Move:</strong> ${findCard['quick-move'][0].name}</p><p><strong>Special-Attack:</strong> ${findCard['special-attack'][0].name}</p></div>`;
 
   let btClose = modal.querySelector('.close');
   btClose.addEventListener('click', hiddenModal);
