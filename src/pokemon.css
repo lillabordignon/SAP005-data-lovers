@@ -220,87 +220,88 @@ button {
 
 /* cor de fundo */
 
-.type-grass {
+.type-grass,
+#type-grass {
   background-color: #69C23D;
   color: #fff;
 }
 
-.type-fire {
+.type-fire, #type-fire {
   background-color: #ED6D12;
   color: #fff;
 }
 
-.type-water {
+.type-water, #type-water {
   background-color: #4578ED;
   color: #fff;
 }
 
-.type-bug {
+.type-bug, #type-bug {
   background-color: #97A51D;
   color: #fff;
 }
 
-.type-normal {
+.type-normal, #type-normal {
   background-color: #9C9C63;
   color: #fff;
 }
 
-.type-poison {
+.type-poison, #type-poison {
   background-color: #923A92;
   color: #fff;
 }
 
-.type-electric {
+.type-electric, #type-electric {
   background-color: #F6C913;
   color: #fff;
 }
 
-.type-ground {
+.type-ground, #type-ground {
   background-color: #DBB54D;
   color: #fff;
 }
 
-.type-fighting {
+.type-fighting, #type-fighting {
   background-color: #AE2A24;
   color: #fff;
 }
 
-.type-psychic {
+.type-psychic, #type-psychic {
   background-color: #F73670;
   color: #fff;
 }
 
-.type-rock {
+.type-rock, #type-rock {
   background-color: #A48F32;
   color: #fff;
 }
 
-.type-ghost {
+.type-ghost, #type-ghost {
   background-color: #644E88;
   color: #fff;
 }
 
-.type-ice {
+.type-ice, #type-ice {
   background-color: #7ECECE;
   color: #fff;
 }
 
-.type-dragon {
+.type-dragon, #type-dragon {
   background-color: #5E1DF7;
   color: #fff;
 }
 
-.type-fairy {
+.type-fairy, #type-fairy {
   background-color: #E87890;
   color: #fff;
 }
 
-.type-dark {
+.type-dark, #type-dark {
   background-color: #644E40;
   color: #fff;
 }
 
-.type-steel {
+.type-steel, #type-steel {
   background-color: #A0A0C0;
   color: #fff;
 }
@@ -324,14 +325,45 @@ button {
 }
 
 .c-modal_content {
-  background-color: #fefefe;
   padding: 25px;
-  border: 1px solid #888;
   box-sizing: border-box;
-  max-width: 450px;
-  max-height: 500px;
-  overflow: auto;
-  margin: 15px;
+  max-width: 370px;
+  max-height: 600px;
+  border-radius: 15px;
+}
+
+.c-modal-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.c-modal_content h1{
+  padding: 10px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.c-modal_content h2{
+  padding: 10px 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 00.5px;
+}
+
+.c-modal_content p{
+  padding: 8px 0;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.c-modal-container,
+.c-modal-footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
 }
 
 .close{
@@ -340,4 +372,14 @@ button {
 
 body .itemActive{
   display: flex;
+}
+
+
+
+.c-modal-container,
+.c-modal-footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
 }
