@@ -59,3 +59,15 @@ export const ordenarType = (pokemons) => {
       return 0;
     })
 }
+
+export const getBaseAttackPercentage = (pokemons, singleBaseAttack) => {
+  const calcAttack = pokemons.reduce((accumulator, pokemon) =>{
+    if (parseInt(singleBaseAttack.stats["base-attack"]) > parseInt(pokemon.stats["base-attack"])){
+      return accumulator + 1
+    } else {
+      return accumulator
+    }
+  }, 1)
+  console.log(calcAttack)
+  return ((calcAttack / pokemons.length) * 100).toFixed(2)
+}
