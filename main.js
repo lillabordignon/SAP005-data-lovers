@@ -1,8 +1,8 @@
 import {
-  ordenarAZ,
-  ordenarZA,
-  ordenarType,
-  ordenarNum,
+  orderAZ,
+  orderZA,
+  orderType,
+  orderNum,
   getBaseAttackPercentage
 } from './data.js';
 import data from './data/pokemon/pokemon.js';
@@ -27,7 +27,6 @@ const showModal = (event) => {
   let elClick = event.target;
   let cardClicked = elClick.closest('article.card');
   let pokeNum = cardClicked.dataset.num;
-  console.log(pokeNum);
   let findCard = data.pokemon.find(pokemon => pokemon.num == pokeNum);
   let boxType = `type-${findCard.type[0]}`;
   contentModal.setAttribute('id', boxType);
@@ -99,26 +98,24 @@ function pokemonSearch() {
 }
 
 const pokemonOrder = document.getElementById("ordenar")
-pokemonOrder.addEventListener("change", qualquer)
+pokemonOrder.addEventListener("change", selectOrder)
 
-function qualquer() {
+function selectOrder() {
   const index = pokemonOrder.selectedIndex;
   if (index == 1) {
     pokemonCardsClear();
-    showCards(ordenarAZ(data.pokemon))
+    showCards(orderAZ(data.pokemon))
   }
   if (index == 2) {
     pokemonCardsClear();
-    showCards(ordenarZA(data.pokemon))
+    showCards(orderZA(data.pokemon))
   }
   if (index == 3) {
     pokemonCardsClear();
-    showCards(ordenarType(data.pokemon))
+    showCards(orderType(data.pokemon))
   }
   if (index == 0) {
     pokemonCardsClear()
-    showCards(ordenarNum(data.pokemon))
+    showCards(orderNum(data.pokemon))
   }
 }
-
-console.log()
