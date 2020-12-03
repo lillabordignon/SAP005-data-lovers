@@ -1,14 +1,4 @@
-// estas funciones son de ejemplo
-
-export const example = () => {
-  return 'example';
-};
-
-export const anotherExample = () => {
-  return 'OMG';
-};
-
-export const ordenarNum = (pokemons) => {
+export const orderNum = (pokemons) => {
   return pokemons.sort(function orderPokemon(a, b) {
     const numA = a.num.toUpperCase()
     const numB = b.num.toUpperCase()
@@ -18,11 +8,11 @@ export const ordenarNum = (pokemons) => {
     if (numA < numB) {
       return -1;
     }
-    return 0;
+
   })
 }
 
-export const ordenarAZ = (pokemons) => {
+export const orderAZ = (pokemons) => {
   return pokemons.sort(function orderPokemon(a, b) {
     const nameA = a.name.toUpperCase()
     const nameB = b.name.toUpperCase()
@@ -32,11 +22,11 @@ export const ordenarAZ = (pokemons) => {
     if (nameA > nameB) {
       return 1;
     }
-    return 0;
+
   })
 }
 
-export const ordenarZA = (pokemons) => {
+export const orderZA = (pokemons) => {
   return pokemons.sort(function orderPokemon(a, b) {
     const nameA = a.name.toUpperCase()
     const nameB = b.name.toUpperCase()
@@ -46,11 +36,11 @@ export const ordenarZA = (pokemons) => {
     if (nameA > nameB) {
       return -1;
     }
-    return 0;
+
   })
 }
 
-export const ordenarType = (pokemons) => {
+export const orderType = (pokemons) => {
   return pokemons.sort(function orderPokemon(a, b) {
     const typeA = a.type[0].toUpperCase()
     const typeB = b.type[0].toUpperCase()
@@ -60,7 +50,7 @@ export const ordenarType = (pokemons) => {
     if (typeA < typeB) {
       return -1;
     }
-    return 0;
+
   })
 }
 
@@ -72,6 +62,5 @@ export const getBaseAttackPercentage = (pokemons, singleBaseAttack) => {
       return accumulator
     }
   }, 1)
-  console.log(calcAttack)
   return ((calcAttack / pokemons.length) * 100).toFixed(2)
 }
