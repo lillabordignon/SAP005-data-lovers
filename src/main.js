@@ -3,7 +3,8 @@ import {
   orderZA,
   orderType,
   orderNum,
-  getBaseAttackPercentage
+  getBaseAttackPercentage,
+  typeWithSpace,
 } from './data.js';
 import data from './data/pokemon/pokemon.js';
 
@@ -12,7 +13,7 @@ const showCards = () => {
     let cards = document.querySelector('.c-cards');
     let card = document.createElement('section');
     cards.appendChild(card);
-    card.innerHTML = `<article class="card type-${pokemon.type[0]}" data-num="${pokemon.num}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${pokemon.type}</h2><button>Detalhes</button></article>`;
+    card.innerHTML = `<article class="card type-${pokemon.type[0]}" data-num="${pokemon.num}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${typeWithSpace(pokemon.type)}</h2><button>Detalhes</button></article>`;
     let cardsButtons = document.querySelectorAll('.card button');
     cardsButtons.forEach(button => {
       button.addEventListener('click', showModal);
@@ -34,7 +35,7 @@ const showModal = (event) => {
     <span class="close">&times;</span>
     <div class="c-modal-header"><img src="${findCard.img}" alt="">
       <h1>${findCard.name}</h1>
-      <h2><strong>Type:</strong> ${findCard.type}</h2>
+      <h2><strong>Type:</strong> ${typeWithSpace(findCard.type)}</h2>
     </div>
     <div class="c-modal-container">
       <p><strong>Height:</strong> ${findCard.size.height}</p>
@@ -77,7 +78,7 @@ function pokemonSearch() {
       let cards = document.querySelector('.c-cards');
       let card = document.createElement('section');
       cards.appendChild(card);
-      card.innerHTML = `<article class="card type-${pokemon.type[0]}" data-num="${pokemon.num}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${pokemon.type}</h2><button>Detalhes</button></article>`;
+      card.innerHTML = `<article class="card type-${pokemon.type[0]}" data-num="${pokemon.num}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${typeWithSpace(pokemon.type)}</h2><button>Detalhes</button></article>`;
       let cardsButtons = document.querySelectorAll('.card button');
       cardsButtons.forEach(button => {
         button.addEventListener('click', showModal);
@@ -87,7 +88,7 @@ function pokemonSearch() {
         let cards = document.querySelector('.c-cards');
         let card = document.createElement('section');
         cards.appendChild(card);
-        card.innerHTML = `<article class="card type-${pokemon.type[0]}" data-num="${pokemon.num}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${pokemon.type}</h2><button>Detalhes</button></article>`;
+        card.innerHTML = `<article class="card type-${pokemon.type[0]}" data-num="${pokemon.num}"><span class='card-number'>${pokemon.num}</span><img src="${pokemon.img}" alt=""><h1>${pokemon.name}</h1><h2>${typeWithSpace(pokemon.type)}</h2><button>Detalhes</button></article>`;
         let cardsButtons = document.querySelectorAll('.card button');
         cardsButtons.forEach(button => {
           button.addEventListener('click', showModal);

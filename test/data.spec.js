@@ -3,7 +3,8 @@ import {
   orderAZ,
   orderZA,
   orderType,
-  getBaseAttackPercentage
+  getBaseAttackPercentage,
+  typeWithSpace
 } from '../src/data.js';
 
 const nomePokemon = [{
@@ -148,5 +149,19 @@ describe('getBaseAttackPercentage', () => {
         "base-attack": "112"
       }
     })).toEqual("33.33");
+  });
+});
+
+describe('typeWithSpace', () => {
+  it('is a function', () => {
+    expect(typeof typeWithSpace).toBe('function');
+  });
+
+  it('should return more than one type with a comma and space between them', () => {
+    expect(typeWithSpace(["bug", "flying"])).toEqual("bug, flying");
+  });
+
+  it('should return the type when has only one', () => {
+    expect(typeWithSpace(["electric"])).toEqual("electric");
   });
 });
