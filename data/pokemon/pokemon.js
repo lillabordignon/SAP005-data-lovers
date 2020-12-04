@@ -15,7 +15,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -113,7 +113,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -211,7 +211,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -508,7 +508,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "fire",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -1066,7 +1066,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -1171,7 +1171,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.2",
@@ -1254,7 +1254,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -1337,7 +1337,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -1442,7 +1442,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.2",
@@ -1537,7 +1537,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -1632,7 +1632,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -1911,7 +1911,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.15",
@@ -2008,7 +2008,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -2872,7 +2872,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "poison",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -3160,7 +3160,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "poison",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -3861,7 +3861,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "poison",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.2",
@@ -3966,7 +3966,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "poison",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -4070,7 +4070,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.15",
@@ -4179,7 +4179,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -4288,7 +4288,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -4386,7 +4386,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " grass"
+      "grass"
     ],
     "encounter": {
       "base-flee-rate": "0.15",
@@ -4583,7 +4583,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.15",
@@ -4676,7 +4676,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -5949,7 +5949,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " fighting"
+      "fighting"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -6679,7 +6679,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.15",
@@ -6777,7 +6777,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -6882,7 +6882,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -6980,7 +6980,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.15",
@@ -7072,7 +7072,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -7164,7 +7164,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -7264,7 +7264,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -7378,7 +7378,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -7688,7 +7688,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " psychic"
+      "psychic"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -7793,7 +7793,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " psychic"
+      "psychic"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -8083,7 +8083,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -8176,7 +8176,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -8273,7 +8273,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -8473,7 +8473,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " ice"
+      "ice"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -8874,7 +8874,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " ice"
+      "ice"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -8978,7 +8978,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ghost",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -9090,7 +9090,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ghost",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -9202,7 +9202,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ghost",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -9321,7 +9321,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -9997,7 +9997,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " psychic"
+      "psychic"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -10093,7 +10093,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " psychic"
+      "psychic"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -10868,7 +10868,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ground",
-      " rock"
+      "rock"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -10972,7 +10972,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ground",
-      " rock"
+      "rock"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -11852,7 +11852,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " psychic"
+      "psychic"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -12057,7 +12057,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -12168,7 +12168,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ice",
-      " psychic"
+      "psychic"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -12715,7 +12715,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -12827,7 +12827,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " ice"
+      "ice"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -13506,7 +13506,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " water"
+      "water"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -13613,7 +13613,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " water"
+      "water"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -13720,7 +13720,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " water"
+      "water"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -13813,7 +13813,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " water"
+      "water"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -13913,7 +13913,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -14094,7 +14094,7 @@ export default {
     "pokemon-rarity": "legendary",
     "type": [
       "ice",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -14172,7 +14172,7 @@ export default {
     "pokemon-rarity": "legendary",
     "type": [
       "electric",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -14258,7 +14258,7 @@ export default {
     "pokemon-rarity": "legendary",
     "type": [
       "fire",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -14527,7 +14527,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "dragon",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -15874,7 +15874,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.15",
@@ -15950,7 +15950,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -16041,7 +16041,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.2",
@@ -16133,7 +16133,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -16225,7 +16225,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.2",
@@ -16318,7 +16318,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -16411,7 +16411,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "poison",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -16509,7 +16509,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " electric"
+      "electric"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -16600,7 +16600,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " electric"
+      "electric"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -16891,7 +16891,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " fairy"
+      "fairy"
     ],
     "encounter": {
       "base-flee-rate": "not in capture",
@@ -17098,7 +17098,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "fairy",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -17200,7 +17200,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "psychic",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.15",
@@ -17292,7 +17292,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "psychic",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -17760,7 +17760,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " fairy"
+      "fairy"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -17857,7 +17857,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " fairy"
+      "fairy"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -18143,7 +18143,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.12",
@@ -18240,7 +18240,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -18337,7 +18337,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -18704,7 +18704,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -18791,7 +18791,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -18880,7 +18880,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -19139,7 +19139,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "dark",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -19236,7 +19236,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " psychic"
+      "psychic"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -19559,7 +19559,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "normal",
-      " psychic"
+      "psychic"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -19730,7 +19730,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " steel"
+      "steel"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -19900,7 +19900,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ground",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -19994,7 +19994,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "steel",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -20269,7 +20269,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " poison"
+      "poison"
     ],
     "encounter": {
       "base-flee-rate": "0.08",
@@ -20356,7 +20356,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " steel"
+      "steel"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -20450,7 +20450,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " rock"
+      "rock"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -20534,7 +20534,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "bug",
-      " fighting"
+      "fighting"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -20622,7 +20622,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "dark",
-      " ice"
+      "ice"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -20979,7 +20979,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "fire",
-      " rock"
+      "rock"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -21072,7 +21072,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ice",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -21162,7 +21162,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ice",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -21252,7 +21252,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " rock"
+      "rock"
     ],
     "encounter": {
       "base-flee-rate": "0.12",
@@ -21518,7 +21518,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ice",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.2",
@@ -21604,7 +21604,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -21695,7 +21695,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "steel",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.09",
@@ -21781,7 +21781,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "dark",
-      " fire"
+      "fire"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -21874,7 +21874,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "dark",
-      " fire"
+      "fire"
     ],
     "encounter": {
       "base-flee-rate": "0.06",
@@ -21967,7 +21967,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "water",
-      " dragon"
+      "dragon"
     ],
     "encounter": {
       "base-flee-rate": "0.05",
@@ -22668,7 +22668,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "ice",
-      " psychic"
+      "psychic"
     ],
     "encounter": {
       "base-flee-rate": "not in capture",
@@ -23397,7 +23397,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -23498,7 +23498,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " ground"
+      "ground"
     ],
     "encounter": {
       "base-flee-rate": "0.07",
@@ -23599,7 +23599,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "rock",
-      " dark"
+      "dark"
     ],
     "encounter": {
       "base-flee-rate": "0.04",
@@ -23702,7 +23702,7 @@ export default {
     "pokemon-rarity": "legendary",
     "type": [
       "psychic",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.04",
@@ -23789,7 +23789,7 @@ export default {
     "pokemon-rarity": "legendary",
     "type": [
       "fire",
-      " flying"
+      "flying"
     ],
     "encounter": {
       "base-flee-rate": "0.04",
@@ -23878,7 +23878,7 @@ export default {
     "pokemon-rarity": "mythic",
     "type": [
       "psychic",
-      " grass"
+      "grass"
     ],
     "encounter": {
       "base-flee-rate": "0",
