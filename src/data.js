@@ -64,3 +64,12 @@ export const getBaseAttackPercentage = (pokemons, singleBaseAttack) => {
   }, 1)
   return ((calcAttack / pokemons.length) * 100).toFixed(2)
 }
+
+export const typeWithSpace = (type) => {
+  if (type.length > 1){
+    return `${type[0]}, ${type[1]}`
+  } else {
+    return `${type[0]}`
+  }
+}
+
