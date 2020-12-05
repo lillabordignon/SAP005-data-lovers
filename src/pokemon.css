@@ -129,7 +129,7 @@ select {
 .card::after {
   content: '';
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(../img/bg_effect.png);
+    url(https://lillabordignon.github.io/SAP005-data-lovers/img/bg_effect.png);
   position: absolute;
   left: 0;
   right: 0;

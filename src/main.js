@@ -73,7 +73,7 @@ function pokemonCardsClear() {
 function pokemonSearch() {
   pokemonCardsClear()
   data.pokemon.filter((pokemon) => {
-    const search = document.getElementById("search").value
+    const search = document.getElementById("search").value.toLowerCase()
     if (pokemon.name.startsWith(search) || pokemon.type[0].startsWith(search)) {
       let cards = document.querySelector('.c-cards');
       let card = document.createElement('section');
