@@ -20,9 +20,9 @@
 
 ### 1. Introdução
 
-Desenvolvido em duplas para a sugunda etapa do Bootcamp da [Laboratória Brasil](https://www.laboratoria.la/br), com o objetivo de manipular dados onde os mesmos se convertam em **informação** fazendo com que os usuários consigam visualizar o que estão buscando.
+Desenvolvido em duplas para a segunda etapa do Bootcamp da [Laboratória Brasil](https://www.laboratoria.la/br), com o objetivo de manipular dados onde os mesmos se convertam em **informação** fazendo com que os usuários consigam visualizar o que estão buscando.
 
-Para esse projeto tinhamos uma série de dados (temas) diferentes em que poderíamos escolher com que tipo de dados gostaríamos de trabalhar.
+Para esse projeto tínhamos uma série de dados (temas) diferentes em que poderíamos escolher com que tipo de dados gostaríamos de trabalhar.
 
 A partir da escolha dos dados iniciamos o projeto, nosso projeto é voltado para usuários que jogam ou desejam conhecer o jogo **Pokémon Go**.
 
@@ -33,9 +33,9 @@ A seguir falaremos mais sobre o assunto.
 
 ### 2. Histórias de Usuário
 
-A partir da definicação do tema do projeto iniciamos o mesmo buscando entender melhor quem seria os nossos usuários, suas histórias e ProtoPersonas para assim iniciar o desenvolvimento do prototipo.
+A partir da definição do tema do projeto iniciamos ele buscando entender melhor quem seria os nossos usuários, suas histórias e ProtoPersonas para assim iniciar o desenvolvimento do protótipo.
 
-Definimos que a nossa aplicação seria desenvolvida para pessoas que gostariam de iniciar a jogar o jogo Pokémon Go, e também pessoas que já jogam o mesmo e necessitam de informações específicas de seus Pokémons.
+Definimos que a nossa aplicação seria desenvolvida para pessoas que gostariam de iniciar a jogar o jogo Pokémon Go, e pessoas que já jogam o mesmo e necessitam de informações específicas de seus Pokémons.
 
 Com isso chegamos em nossas histórias de usuários, nem todas achamos interessante colocar em prática no projeto, porém documentamos todas:
 
@@ -55,7 +55,7 @@ Toda a aplicação foi desenvolvida com base em nossas duas ProtoPersonas abaixo
 
 #### *Protótipo de Baixa Fidelidade*
 
-Iniciamos o projeto desenvolvendo um protótipo de nossa aplicação, preferimos já faze-lo através de ferramentas digitais.
+Iniciamos o projeto desenvolvendo um protótipo de nossa aplicação, preferimos já fazê-lo através de ferramentas digitais.
 
 Nosso projeto se iniciaria com a seguinte cara:
 
@@ -71,7 +71,7 @@ E para finalizar a **Home Page** no `Footer` ficaria os dados das desenvolvedora
 * *Pokémon Page*
 ![Pokémon Page](src/img/readme/Pokemon-Window-Pokemons.png)
 
-Para a página onde ficaria as informações dos dados manipulados, materíamos o `Header` e o `Footer`, trazendo um padrão para as páginas do site.
+Para a página onde ficaria as informações dos dados manipulados, manteríamos o `Header` e o `Footer`, trazendo um padrão para as páginas do site.
 
 Essa página será o coração da aplicação, é nela que manipulamos os dados e exibimos os mesmos aos nossos úsuarios.
 
@@ -82,13 +82,13 @@ Composta de uma barra de filtragem e uma barra de busca, abaixo assim que carreg
 
 ### 3. Pokémon LiK
 
-Após a analise dos dados de usuários e a implementação do protótipo de baixa fidelidade, iniciamos o desenvolvimento da nossa aplicação. Os relatos nos trouxe claramente o que precisaríamos apresentar no projeto.
+Após a análise dos dados de usuários e a implementação do protótipo de baixa fidelidade, iniciamos o desenvolvimento da nossa aplicação. Os relatos nos trouxeram claramente o que precisaríamos apresentar no projeto.
 
 O **Pokémon LiK** nasceu da necessidade dos usuários e futuros usuários necessitarem uma aplicação onde traga informações necessárias para conhecer o jogo e informações mais avançadas dos Pokémons onde auxilia os mestres Pokémons a aprimorar suas jogadas.
 
 Pensando na experiência de nossos usuários a aplicação é totalmente responsiva, ou seja, ela pode ser visualizada sem problemas a partir de diversos tamanhos de tela: celulares, tablets, notebooks, etc..
 
-Agora chega de tanto falar e vamos apresentar um pouco o projeto a vocês, o mesmo inicia com a pagina `Home` onde trás a Logo do projeto o menu de navegação e informações sobre o projeto e sobre o jogo. 
+Agora chega de tanto falar e vamos apresentar um pouco o projeto a vocês, ele inicia com a página `Home` onde traz a Logo do projeto o menu de navegação e informações sobre o projeto e sobre o jogo. 
 
 ![Home](src/video/readme/Pokemon-LiK-Home.gif)
 
@@ -100,7 +100,6 @@ O projeto conta também com uma segunda página, a página `Pokémon` você cons
 Nessa página você conta com um menu de ordenação e busca, onde você poderá ordenar sua pesquisa, ou até mesmo filtrar sua busca por **Nome ou Tipo**.
 
 * *Menu Ordenação dos Cards*
- ![Menu Ordenação Card](/src/img/readme/Ordenacao-card.jpg)
 
    ![Order](src/video/readme/Pokemon-LiK-Order.gif)
 
@@ -119,16 +118,16 @@ Nessa página você conta com um menu de ordenação e busca, onde você poderá
 
 ### 4. Teste de Usabilidade
 
-Conforme programávamos algumas funcionalidades solicitávamos opiniões de pessoas próximas que conhecem o jogo, com isso fomos melhorando visualização de parametros e localização de funções e necessidade de botões.
+Conforme programávamos algumas funcionalidades solicitávamos opiniões de pessoas próximas que conhecem o jogo, com isso fomos melhorando visualização de parâmetros e localização de funções e necessidade de botões.
 
-Percebemos também a necessidade de alterar os parametros inicialmente informados no protótipo na apresentação do Card e nos filtros e ordenações.
+Percebemos também a necessidade de alterar os parâmetros inicialmente informados no protótipo na apresentação do Card e nos filtros e ordenações.
 
 
 ***
 
 ### 5. Colocando a mão na massa
 
-Gostou do projeto? Você poderá testa-lo, clicando no link abaixo.
+Gostou do projeto? Você poderá testá-lo, clicando no link abaixo.
 
 [Pokémonn LiK](https://lillabordignon.github.io/SAP005-data-lovers/)
 
@@ -150,12 +149,11 @@ Esse projeto trouxe uma complexidade e um desafio um pouco maior ao nosso aprend
 
 Foi muito interessante e divertido trabalhar em equipe (dupla), com isso conseguimos entender um pouco melhor a dinâmica de um grupo de trabalho programando a mesma aplicação.
 
-Agradeçemos muito a Laboratória por nos desafiar sempre a aprender cada dia mais, aos colegas que foram fundamentais nesse processo, aos mentores e suas maravilhosas Ofinas e dicas, e não menos importante aos nosso familiares e amigos, que nem sempre podem nos ajudar com dicas técnicas mas sempre nos incentivam, nos apoiam e estão dispostos a ouvir nossos desabafos.
+Agradecemos muito a Laboratória por nos desafiar sempre a aprender cada dia mais, aos colegas que foram fundamentais nesse processo, aos mentores e suas maravilhosas oficinas e dicas, e não menos importante aos nosso familiares e amigos, que nem sempre podem nos ajudar com dicas técnicas mas sempre nos incentivam, nos apoiam e estão dispostos a ouvir nossos desabafos.
+
 
 - **_Pokémon LiK_**
-
-
-  ![FilterName](/src/video/readme/Pokemon-Lik-FilterName.gif)
+  ![FilterName](/src/video/readme/Pokemon-LiK-FilterName.gif)
 
 
 ***
